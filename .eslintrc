@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb", "react-app"],
+  "plugins": [],
+  "rules": {
+    "camelcase": ["off"], // Unfotunatelly the API returns things in snake case
+    "import/extensions": ["off"],
+    "import/no-unresolved": ["off"], // It's not working with webpack aliases
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "prefer-template": ["off"],
+    "radix": ["warn", "as-needed"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  }
+}

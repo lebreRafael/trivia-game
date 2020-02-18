@@ -1,0 +1,12 @@
+.home__title {
+  margin: 0;
+}
+
+.home__text {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.home__begin {
+  width: 100%;
+}

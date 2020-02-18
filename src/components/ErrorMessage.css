@@ -1,0 +1,24 @@
+.error-message {
+  animation: slidingDown 0.3s linear;
+  background: #f05b63;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1.0em;
+  height: 80px;
+  left: calc((100% - 320px) / 2);
+  line-height: 32px;
+  max-width: 480px;
+  padding: 24px;
+  position: absolute;
+  top: 4px;
+  width: 320px;
+}
+
+@keyframes slidingDown {
+  from {
+    top: -80px;
+  }
+  to {
+    top: 4px;
+  }
+}
