@@ -3,10 +3,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import useDocumentTitle from '../../hooks/useDocumentTitle';
-import useRedirectHome from '../../hooks/useRedirectHome';
-import { RootState } from '../../redux/reducers';
-import SvgIcon from '../../components/SvgIcon';
+import SvgIcon from 'components/SvgIcon';
+import useDocumentTitle from 'hooks/useDocumentTitle';
+import useRedirectHome from 'hooks/useRedirectHome';
+import { RootState } from 'redux/reducers';
 import './Results.css';
 
 function Results() {
